@@ -67,7 +67,7 @@ static const struct arg args[] = {
                 { kernel_release,  " : %s  | ",     NULL},
 		{ cpu_perc,        " : %s%% | ",     NULL },
 		{ ram_perc,        " : %s%% | ",     NULL },
-                { kanji,              "曜:%s |  ",    NULL },
+                { kanji,              "曜:%s |  ",    NULL },   // Display kanji of the week
 		/*{ netspeed_rx,  " : %s%% | _", "wlanname"},*/
 		/*{ disk_free,"[hdd %sB]  | ",      "/" },*/
 		{ datetime, "%s",       "%a, %b %d %R  " }
